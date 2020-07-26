@@ -43,6 +43,10 @@ query {
 }
 ```
 
+## Caching
+
+There is currently a default internal cache that will cache data (for 1 hour) for `/character/search` and `/freecompany/search` endpoints (the only 2 supported enpoints, at the moment).
+
 ## License
 
 This project is open source, under the terms described in the [MIT License](LICENSE).

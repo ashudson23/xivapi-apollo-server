@@ -19,7 +19,7 @@ export default {
         page = "",
       } = params;
 
-      return ctx.dataSources.xivApi.search('freecompany', { name, server, page });
+      return ctx.dataSources.xivApi.search('character', { name, server, page });
     },
   }
 };

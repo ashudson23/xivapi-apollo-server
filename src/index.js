@@ -19,7 +19,7 @@ const server = new ApolloServer({
   }),
   dataSources,
   plugins: [responseCachePlugin()],
-  playground: env !== production,
+  playground: env !== 'production',
   schema,
 });
 
