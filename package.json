@@ -1,0 +1,26 @@
+{
+  "name": "xivapi-apollo-server",
+  "version": "0.1.0",
+  "description": "An apollo (GraphQL) server layer for xivapi.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ashudson23",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "apollo-datasource-rest": "^0.9.3",
+    "apollo-server": "^2.16.0",
+    "apollo-server-plugin-response-cache": "^0.5.3",
+    "babel-plugin-wildcard": "^6.0.0",
+    "dotenv-flow": "^3.2.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.0.15",
+    "node-cache": "^5.1.2"
+  }
+}
