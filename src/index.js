@@ -1,4 +1,4 @@
-import { ApolloServer } from 'apollo-server';
+import { ApolloServer } from 'apollo-server-cloud-functions';
 import responseCachePlugin from 'apollo-server-plugin-response-cache';
 
 import schema from './schema';

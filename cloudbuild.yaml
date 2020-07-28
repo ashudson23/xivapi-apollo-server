@@ -1,0 +1,12 @@
+steps:
+- name: 'gcr.io/xiclone-shared/xiclone-zephyr:v2.0.5'
+  args: [
+    'node', '/zephyr/deploy/lambda.js'
+  ]
+  env: [
+    'SERVICE_NAME=${_SERVICE_NAME}',
+    'PROJECT_ID=$PROJECT_ID',
+    'REPO_URL=https://source.developers.google.com/projects/$PROJECT_ID/repos/$REPO_NAME/fixed-aliases/$TAG_NAME/paths/',
+    'TRIGGER_TYPE=http',
+    'TRIGGER_SOURCE=--allow-unauthenticated'
+  ]

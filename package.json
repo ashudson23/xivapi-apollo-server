@@ -1,6 +1,6 @@
 {
   "name": "xivapi-apollo-server",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An apollo (GraphQL) server layer for xivapi.com",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/register": "^7.10.5",
     "apollo-datasource-rest": "^0.9.3",
-    "apollo-server": "^2.16.0",
+    "apollo-server-cloud-functions": "^2.16.1",
     "apollo-server-plugin-response-cache": "^0.5.3",
     "babel-plugin-wildcard": "^6.0.0",
     "dotenv-flow": "^3.2.0",
