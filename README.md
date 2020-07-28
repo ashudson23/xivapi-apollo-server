@@ -1,6 +1,5 @@
 # xivapi-apollo-server
 
-[![version](https://badge.fury.io/js/xivapi-js.svg)](https://www.npmjs.com/package/xivapi-js)
 [![license](https://img.shields.io/github/license/xivapi/xivapi-js.svg)](LICENSE)
 
 This is an apollo server layer for interacting with [XIVAPI](https://xivapi.com/) and requesting data using GraphQL.
