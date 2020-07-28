@@ -1,10 +1,10 @@
 {
   "name": "xivapi-apollo-server",
-  "version": "0.2.0",
+  "version": "0.2.9",
   "description": "An apollo (GraphQL) server layer for xivapi.com",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "npx @google-cloud/functions-framework --target=graph"
   },
   "author": "ashudson23",
   "license": "MIT",

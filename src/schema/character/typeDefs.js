@@ -1,4 +1,4 @@
-import { gql } from 'apollo-server';
+import { gql } from 'apollo-server-cloud-functions';
 
 import * as common from '../common';
 import { query, typeName } from './resolvers';

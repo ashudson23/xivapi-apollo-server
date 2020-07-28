@@ -1,3 +1,5 @@
 require('dotenv-flow').config();
 require('@babel/register');
-require('./src/index');
+const server = require('./src/index').default;
+
+exports.graph = server.createHandler();
