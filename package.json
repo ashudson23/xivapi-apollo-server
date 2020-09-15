@@ -1,6 +1,6 @@
 {
   "name": "xivapi-apollo-server",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "An apollo (GraphQL) server layer for xivapi.com",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "babel-plugin-wildcard": "^6.0.0",
     "dotenv-flow": "^3.2.0",
     "graphql": "^15.3.0",
-    "graphql-tools": "^6.0.15",
+    "graphql-tools": "^6.2.2",
     "node-cache": "^5.1.2"
   }
 }
